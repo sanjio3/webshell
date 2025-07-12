@@ -3,8 +3,8 @@ return [
     'db' => [
         'host' => '127.0.0.1',
         'dbname' => 'webshell_scanner',
-        'user' => 'root',
-        'password' => 'your_mysql_root_password',
+        'user' => 'root',      // WNMP 默认用户名是 root
+        'password' => '',      // WNMP 默认密码为空
         'charset' => 'utf8mb4'
     ]
 ];
